@@ -1,11 +1,12 @@
 # Plane Game
-## Simple arcade game, framework UIKit.
+## Simple arcade game
+Framework UIKit.
 Try a little bit SnapKit and UserDefaults
 ___
 
 # Main Screen 
 
-![MainScreen](https://github.com/RogulevS/planeGame/blob/main/planeGameAston/Resources/Assets.xcassets/forREADME/MainScreen.imageset/MainScreen.png)
+![MainScreen](https://github.com/RogulevS/planeGame/blob/main/planeGameAston/Resources/Assets.xcassets/forREADME/MainScreen.imageset/MainScreen.png = 250)
 
 
 # If you want to start, shake your phone 
