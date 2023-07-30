@@ -1,0 +1,6 @@
+framework module Pods_planeGameAston {
+  umbrella header "Pods-planeGameAston-umbrella.h"
+
+  export *
+  module * { export * }
+}

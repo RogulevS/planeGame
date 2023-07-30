@@ -1,2 +1,2 @@
-# planeGame
+# planeGameAston
 Simple arcade game

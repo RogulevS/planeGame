@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12968B462A58439400248770 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12968B452A58439400248770 /* MainViewController.swift */; };
+		12968B492A5AF28000248770 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12968B482A5AF28000248770 /* SettingsViewController.swift */; };
+		129B2C162A729D7000D73E71 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129B2C152A729D7000D73E71 /* UserDefaultsManager.swift */; };
+		129B2C1A2A72A2CF00D73E71 /* GameResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129B2C192A72A2CF00D73E71 /* GameResults.swift */; };
+		129B2C1C2A72A4D000D73E71 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129B2C1B2A72A4D000D73E71 /* Resources.swift */; };
+		129B2C232A72CF1F00D73E71 /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129B2C222A72CF1F00D73E71 /* FileManager.swift */; };
+		129B2C252A73F32500D73E71 /* StatisticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129B2C242A73F32500D73E71 /* StatisticsViewController.swift */; };
+		12B525032A4854C20070E565 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B525022A4854C20070E565 /* AppDelegate.swift */; };
+		12B525052A4854C20070E565 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B525042A4854C20070E565 /* SceneDelegate.swift */; };
+		12B525072A4854C20070E565 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B525062A4854C20070E565 /* GameViewController.swift */; };
+		12B5250C2A4854C30070E565 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12B5250B2A4854C30070E565 /* Assets.xcassets */; };
+		12B5250F2A4854C30070E565 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12B5250D2A4854C30070E565 /* LaunchScreen.storyboard */; };
+		53FAD6CB2DECED11B44F22B0 /* Pods_planeGameAston.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D6672BCBF88CAF662451B4 /* Pods_planeGameAston.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		12968B452A58439400248770 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		12968B482A5AF28000248770 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		129B2C152A729D7000D73E71 /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
+		129B2C192A72A2CF00D73E71 /* GameResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameResults.swift; sourceTree = "<group>"; };
+		129B2C1B2A72A4D000D73E71 /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
+		129B2C222A72CF1F00D73E71 /* FileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
+		129B2C242A73F32500D73E71 /* StatisticsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsViewController.swift; sourceTree = "<group>"; };
+		12B524FF2A4854C20070E565 /* planeGameAston.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = planeGameAston.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12B525022A4854C20070E565 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		12B525042A4854C20070E565 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		12B525062A4854C20070E565 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		12B5250B2A4854C30070E565 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		12B5250E2A4854C30070E565 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		12B525102A4854C30070E565 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22F55712C365CFAF5C6A9958 /* Pods-planeGameAston.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-planeGameAston.debug.xcconfig"; path = "Target Support Files/Pods-planeGameAston/Pods-planeGameAston.debug.xcconfig"; sourceTree = "<group>"; };
+		253CD1ABF171FC5262DE7127 /* Pods-planeGameAston.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-planeGameAston.release.xcconfig"; path = "Target Support Files/Pods-planeGameAston/Pods-planeGameAston.release.xcconfig"; sourceTree = "<group>"; };
+		D9D6672BCBF88CAF662451B4 /* Pods_planeGameAston.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_planeGameAston.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12B524FC2A4854C20070E565 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53FAD6CB2DECED11B44F22B0 /* Pods_planeGameAston.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12968B3A2A581C7F00248770 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				12B525022A4854C20070E565 /* AppDelegate.swift */,
+				12B525042A4854C20070E565 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		12968B3B2A581C9900248770 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				129B2C212A72CEF600D73E71 /* Extensions */,
+				129B2C1B2A72A4D000D73E71 /* Resources.swift */,
+				12B5250B2A4854C30070E565 /* Assets.xcassets */,
+				12B5250D2A4854C30070E565 /* LaunchScreen.storyboard */,
+				12B525102A4854C30070E565 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		129B2C142A729D4F00D73E71 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				129B2C152A729D7000D73E71 /* UserDefaultsManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		129B2C182A729F0700D73E71 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				129B2C192A72A2CF00D73E71 /* GameResults.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		129B2C212A72CEF600D73E71 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				129B2C222A72CF1F00D73E71 /* FileManager.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		129B2C522A76B28A00D73E71 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				12968B452A58439400248770 /* MainViewController.swift */,
+				12B525062A4854C20070E565 /* GameViewController.swift */,
+				129B2C242A73F32500D73E71 /* StatisticsViewController.swift */,
+				12968B482A5AF28000248770 /* SettingsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		12B524F62A4854C20070E565 = {
+			isa = PBXGroup;
+			children = (
+				12B525012A4854C20070E565 /* planeGameAston */,
+				12B525002A4854C20070E565 /* Products */,
+				BC9BD79F4B8E55266C378172 /* Pods */,
+				F909320A8634C263DA70ECC8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		12B525002A4854C20070E565 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12B524FF2A4854C20070E565 /* planeGameAston.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12B525012A4854C20070E565 /* planeGameAston */ = {
+			isa = PBXGroup;
+			children = (
+				129B2C522A76B28A00D73E71 /* ViewControllers */,
+				129B2C182A729F0700D73E71 /* Models */,
+				129B2C142A729D4F00D73E71 /* Managers */,
+				12968B3A2A581C7F00248770 /* Application */,
+				12968B3B2A581C9900248770 /* Resources */,
+			);
+			path = planeGameAston;
+			sourceTree = "<group>";
+		};
+		BC9BD79F4B8E55266C378172 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				22F55712C365CFAF5C6A9958 /* Pods-planeGameAston.debug.xcconfig */,
+				253CD1ABF171FC5262DE7127 /* Pods-planeGameAston.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F909320A8634C263DA70ECC8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9D6672BCBF88CAF662451B4 /* Pods_planeGameAston.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12B524FE2A4854C20070E565 /* planeGameAston */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12B525132A4854C30070E565 /* Build configuration list for PBXNativeTarget "planeGameAston" */;
+			buildPhases = (
+				B7764AA306222D3E36BE857B /* [CP] Check Pods Manifest.lock */,
+				12B524FB2A4854C20070E565 /* Sources */,
+				12B524FC2A4854C20070E565 /* Frameworks */,
+				12B524FD2A4854C20070E565 /* Resources */,
+				B418FCCD9ABE123B2BD42792 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = planeGameAston;
+			productName = planeGameAston;
+			productReference = 12B524FF2A4854C20070E565 /* planeGameAston.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12B524F72A4854C20070E565 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					12B524FE2A4854C20070E565 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 12B524FA2A4854C20070E565 /* Build configuration list for PBXProject "planeGameAston" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 12B524F62A4854C20070E565;
+			productRefGroup = 12B525002A4854C20070E565 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12B524FE2A4854C20070E565 /* planeGameAston */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12B524FD2A4854C20070E565 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12B5250F2A4854C30070E565 /* LaunchScreen.storyboard in Resources */,
+				12B5250C2A4854C30070E565 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B418FCCD9ABE123B2BD42792 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-planeGameAston/Pods-planeGameAston-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-planeGameAston/Pods-planeGameAston-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-planeGameAston/Pods-planeGameAston-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7764AA306222D3E36BE857B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-planeGameAston-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12B524FB2A4854C20070E565 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				129B2C1A2A72A2CF00D73E71 /* GameResults.swift in Sources */,
+				129B2C232A72CF1F00D73E71 /* FileManager.swift in Sources */,
+				12B525072A4854C20070E565 /* GameViewController.swift in Sources */,
+				12B525032A4854C20070E565 /* AppDelegate.swift in Sources */,
+				129B2C252A73F32500D73E71 /* StatisticsViewController.swift in Sources */,
+				129B2C162A729D7000D73E71 /* UserDefaultsManager.swift in Sources */,
+				12968B462A58439400248770 /* MainViewController.swift in Sources */,
+				129B2C1C2A72A4D000D73E71 /* Resources.swift in Sources */,
+				12B525052A4854C20070E565 /* SceneDelegate.swift in Sources */,
+				12968B492A5AF28000248770 /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		12B5250D2A4854C30070E565 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12B5250E2A4854C30070E565 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		12B525112A4854C30070E565 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		12B525122A4854C30070E565 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		12B525142A4854C30070E565 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22F55712C365CFAF5C6A9958 /* Pods-planeGameAston.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DBATM84U99;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = planeGameAston/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RogulevS.planeGameAston;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		12B525152A4854C30070E565 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 253CD1ABF171FC5262DE7127 /* Pods-planeGameAston.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DBATM84U99;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = planeGameAston/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RogulevS.planeGameAston;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12B524FA2A4854C20070E565 /* Build configuration list for PBXProject "planeGameAston" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12B525112A4854C30070E565 /* Debug */,
+				12B525122A4854C30070E565 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12B525132A4854C30070E565 /* Build configuration list for PBXNativeTarget "planeGameAston" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12B525142A4854C30070E565 /* Debug */,
+				12B525152A4854C30070E565 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 12B524F72A4854C20070E565 /* Project object */;
+}
