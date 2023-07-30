@@ -6,7 +6,7 @@ ___
 
 # Main Screen 
 
-![MainScreen](https://github.com/RogulevS/planeGame/blob/main/planeGameAston/Resources/Assets.xcassets/forREADME/MainScreen.imageset/MainScreen.png =250x100)
+![MainScreen](https://github.com/RogulevS/planeGame/blob/main/planeGameAston/Resources/Assets.xcassets/forREADME/MainScreen.imageset/MainScreen.png =250x)
 
 
 # If you want to start, shake your phone 
