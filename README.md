@@ -4,17 +4,17 @@ Framework UIKit.
 Try a little bit SnapKit and UserDefaults
 ___
 
-# Main Screen 
+## Main Screen 
 
-![MainScreen](https://github.com/RogulevS/planeGame/blob/main/planeGameAston/Resources/Assets.xcassets/forREADME/MainScreen.imageset/MainScreen.png | width=100)
+![MainScreen](https://github.com/RogulevS/planeGame/blob/main/planeGameAston/Resources/Assets.xcassets/forREADME/MainScreen.imageset/MainScreen.png)
 
 
-# If you want to start, shake your phone 
+## If you want to start, shake your phone 
 
 ![ShakeToStart](https://github.com/RogulevS/planeGame/blob/main/planeGameAston/Resources/Assets.xcassets/forREADME/ShakeToStart.imageset/ShakeToStart.png)
 
 
-# Gameplay
+## Gameplay
 
 ![Gameplay](https://github.com/RogulevS/planeGame/blob/main/planeGameAston/Resources/Assets.xcassets/forREADME/Gameplay.imageset/Gameplay.png)
 
